@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head> 
+		<title>Ical Parser Demo</title> 
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+		<meta http-equiv="Access-Control-Allow-Origin" content="*">
+		<style type='text/css'>
+			#calendar li { padding:6px;margin:2px auto;  border:solid 1px #eee; list-style:none;width:400px; }
+			#calendar li.header { background-color:#eee;font-size:1.1em;}
+		</style>
+	</head> 
+	<body> 
+	<div id="debug">
+	</div>
+		<div id="iCal">
+			<div class="iCal__Event">
+				<div class="iCal__Event__Date">
+					<div class="iCal__Event__Month">
+						Nov
+					</div>
+					<div class="iCal__Event__Day">
+					</div>
+					<div class="iCal__Event__Weekday">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<ul id='calendar'><li class='header'>Upcoming Events.</li></ul>
+
+
+
+		<script type="text/javascript" src='ical_parser.js'></script>
+		<script type="text/javascript" src='ical_render.js'></script>
+		<!--
+		-->
+	</body> 
+</html> 
